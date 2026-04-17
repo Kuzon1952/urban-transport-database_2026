@@ -33,6 +33,7 @@ The database is designed to store and manage information about vehicles, routes,
 
 ## Project Structure
 
+```
 urban-transport-database/
 │
 ├── README.md
@@ -48,10 +49,9 @@ urban-transport-database/
         ├── 04_queries.sql
         ├── 05_triggers.sql
         └── 06_procedures.sql
+```
 
----
-
-## SQL Files
+## SQL Files (in process...)
 
 - 01_create_tables.sql — create database schema
 - 02_insert_reference_data.sql — insert base data
