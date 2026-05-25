@@ -38,28 +38,42 @@ urban-transport-database/
 │
 ├── README.md
 │
-├── report/
-│   └── Transport_Database_Report.pdf (in process)
+├──postgreSQL
+|   ├──queries.jpg
+|   ├──schema.sql
+|   ├──generated_data.sql
+|   ├──query1.sql
+|   ├──query2.sql
+|   ├──query3.sql
+|   ├──query4.sql
+|   ├──query5.sql
+|   ├──query6.sql
+|   ├──query7.sql
+|   ├──query8.sql
+|   ├──query9.sql
 │
-└── project/
-    └── src/
-        ├── 01_create_tables.sql
-        ├── 02_insert_reference_data.sql
-        ├── 03_generate_data.sql
-        ├── 04_queries.sql
-        ├── 05_triggers.sql
-        └── 06_procedures.sql
+├── report/
+│   └── Transport_Database_Report.pdf 
+│
+└── python/
+    ├── fill_database.py
 ```
+## Python 
+- 01. fill_database.py it generates "generated_data.sql"
 
-## SQL Files (in process...)
+## SQL Files 
 
-- 01_create_tables.sql — create database schema
-- 02_insert_reference_data.sql — insert base data
-- 03_generate_data.sql — generate test data
-- 04_queries.sql — SQL queries
-- 05_triggers.sql — triggers
-- 06_procedures.sql — stored procedures
-
+- 01. schema.sql
+- 02. generated_data.sql
+- 03. query1.sql
+- 04. query2.sql
+- 05. query3.sql
+- 06. query4.sql
+- 07. query5.sql
+- 08. query6.sql
+- 09. query7.sql
+- 10. query8.sql
+- 11. query9.sql
 ---
 
 ## How to Run
